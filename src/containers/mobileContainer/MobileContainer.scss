@@ -1,0 +1,47 @@
+.mobileContainer{
+    height: 100%;
+    position: relative;
+    .mobileAdWrapper{
+        max-width: 1200px;
+        min-width: 1200px;
+        margin: 0 auto;
+        padding-top: 100px;
+        .mobileTitle{
+            font-size: 40px;
+            font-weight: 600;
+            width: 300px;
+            line-height: 1;
+            letter-spacing: -.45px;
+            color: #282c3f;
+        }
+        .mobileSubTitle{
+            font-size: 20px;
+            width: 400px;
+            font-weight: 300;
+            padding-top: 20px;
+            padding-bottom: 60px;
+            color: #7e808c;
+            line-height: 1.2;
+        }
+        .storeLinks{
+            .appLink{
+                img{
+                    height: 54px;
+                }
+            }
+        }
+        .mobImages{
+            position: absolute;
+            height: 489px;
+            width: 384px;
+            &.mob1{
+                top: 0;
+                right: 350px;                
+            }
+            &.mob2{
+                bottom: 0;
+                right: 0px;
+            }
+        }
+    }    
+}
