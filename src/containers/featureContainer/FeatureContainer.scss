@@ -1,0 +1,39 @@
+.featureContainer{
+    height: 100%;
+    .featureBlock{
+        padding-bottom: 80px;
+        max-width: 1200px;
+        min-width: 1200px;
+        margin: 0 auto;
+        .featureUnit{
+            text-align: center;
+            .featureImage{
+                height: 250px;
+                img{
+                    height: 200px;
+                    margin-bottom: 42px;
+                }
+            }
+            .featureTitle{
+                text-align: center;
+                label{
+                    font-size: 20px;
+                    font-weight: 600;
+                    margin-top: 0;
+                    color: white;
+                }
+            }
+            .featureSubTitle{
+                text-align: center;
+                p{
+                    font-size: 15px;
+                    width: 260px;
+                    margin: auto;
+                    margin-top: 10px;
+                    color: #e0cbc1;
+                    line-height: 1.3;
+                }
+            }
+        }
+    }
+}

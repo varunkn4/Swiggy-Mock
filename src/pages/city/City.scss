@@ -1,0 +1,169 @@
+.contentWrapper{
+    .footer{
+        min-height: 300px;
+        background: black;
+    }
+    .header{
+        padding: 0 20px;
+        .logoWrapSecond{
+            max-width: 1200px;
+            min-width: 1200px;
+            position: relative;
+            margin: 0 auto;
+            height: 80px;
+            padding-top: 20px;
+            img{
+                height: 50px;
+            }
+        }
+    }
+    .citySearchSection{
+        height: 287px;
+        background: #494d60;
+        color: white;
+        padding-top: 90px;
+        .citySearchWrap{
+            max-width: 1200px;
+            min-width: 1200px;
+            position: relative;
+            margin: 0 auto;
+            .citySearchTitle{
+                font-size: 32px;
+                font-weight: 600;
+            }
+            .citySearchSub{
+                font-size: 16px;
+                margin-top: 20px;
+            }
+            .citySearch{
+                width: 430px;
+                height: 45px;
+                background-color: #fff;
+                margin-top: 16px;
+                color: #535665;
+                padding: 0 20px;
+                position: relative;
+                cursor: pointer;
+                label{
+                    margin-top: 10px;
+                }
+                .searchButton{
+                    position: absolute;
+                    right: 0;
+                    top: 0;
+                    height: 100%;
+                    background-color: #fc8019;
+                    color: #fff;
+                    -ms-flex-pack: center;
+                    justify-content: center;
+                    text-transform: uppercase;
+                    width: 116px;
+                    font-weight: 600;
+                    padding-top: 10px;
+                    text-align: center;
+                }
+            }
+        }
+    }
+    .detailsSection{
+        max-width: 1200px;
+        min-width: 1200px;
+        position: relative;
+        margin: 0 auto;
+        margin-top: 60px;
+        .detailsTitle{
+            font-size: 32px;
+            margin-bottom: 22px;
+            font-weight: 600;
+            letter-spacing: -.4px;
+            color: #282c3f;
+        }
+        .detailsSub{
+            font-size: 20px;
+            font-weight: 300;
+            line-height: 28px;
+            color: #686b78;
+            padding-right: 100px;
+        }
+    }
+    .hotelSection{
+        max-width: 1200px;
+        min-width: 1200px;
+        position: relative;
+        margin: 0 auto;
+        margin-top: 60px;
+        .hotelTitle{
+            font-size: 32px;
+            margin-bottom: 22px;
+            font-weight: 600;
+            letter-spacing: -.4px;
+            color: #282c3f;
+        }
+        .hotelListSection{
+            .hotelUnit{
+                padding: 20px 20px 57px;
+                border: 1px solid #fff;
+                .hotelImage{
+                    background: #eef0f5;
+                    width: 254px;
+                    height: 160px;
+                    position: relative;
+                    img{
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+                .hotelName{
+                    margin-top: 14px;
+                    font-size: 17px;
+                    font-weight: 500;
+                    word-break: break-word;
+                    margin-bottom: 0;
+                }
+                .hotelCuisine{
+                    color: #686b78;
+                    font-size: 13px;
+                }
+                .hotelMeta{
+                    margin-top: 18px;
+                    font-size: 12px;
+                    -ms-flex-pack: justify;
+                    justify-content: space-between;
+                    color: #535665;
+                    display: flex;
+                    align-items: center;
+                    .hotelRating{
+                        background-color: #48c479;
+                        color: #fff;
+                        height: 20px;
+                        width: 43px;
+                        padding: 0 5px;
+                        font-weight: 400;
+                        .icon-star{
+                            font-size: 10px;
+                            margin-right: 4px;
+                            position: relative;
+                            top: -1px;
+                        }
+                    }
+                }
+                .hotelOffer{
+                    border-top: 1px solid #e9e9eb;
+                    padding-top: 14px;
+                    margin-top: 14px;
+                    color: #8a584b;
+                    display: -ms-flexbox;
+                    display: flex;
+                    -ms-flex-align: center;
+                    align-items: center;
+                    font-weight: 600;
+                    .offerUnit{
+                        .offerIcon{
+                            margin-right: 10px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

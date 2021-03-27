@@ -1,0 +1,43 @@
+@import './partials/_themes';
+@import './partials/common';
+@import './partials/mediaQuery';
+
+@import './pages/home/Home';
+@import './pages/city/City';
+
+@import './containers/opennerContainer/OpennerContainer';
+@import './containers/featureContainer/FeatureContainer';
+@import './containers/mobileContainer/MobileContainer';
+
+*{
+    // font-family: $indieFlower;
+}
+body{
+    margin: 0;
+}
+.centered{
+    text-align: center;
+}
+::placeholder {
+    color: rgba(0,0,0,0.3);
+}  
+:-ms-input-placeholder {
+    color: rgba(0,0,0,0.3);
+}  
+::-ms-input-placeholder {
+    color: rgba(0,0,0,0.3);
+}
+.hidden{
+    display: none !important;
+}
+.disabled{
+    opacity: 0.4;
+    cursor: pointer !important;
+}
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0; 
+}

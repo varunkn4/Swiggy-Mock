@@ -1,0 +1,80 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .mainHeader{
+        height: auto !important;
+        text-align: center;
+        .disclaimer{
+            text-align: center !important;
+            padding: 0 !important;
+            p{
+                display: none;
+            }
+        }
+    }
+    .previewArea{
+        padding: 10px 15px !important;
+        height: auto !important;
+        .zoomControls{
+            top: 10px !important;
+        }
+        .comicPrevImage{
+            height: auto !important;
+        }
+        .comicPrevDetails{
+            text-align: center !important;
+        }
+        .comicPrevDate{
+            display: block !important;
+            width: 100% !important;
+            text-align: center !important;
+        }
+        .controlUnit{
+            margin-bottom: 5px;
+        }
+    }
+    .galleryArea{
+        padding: 10px 15px !important;
+        height: auto !important;
+        .galleryControls{
+            position: initial !important;
+            top: 0 !important;
+            right: 0 !important;
+            text-align: center !important;
+            width: 100% !important;
+            margin-bottom: 10px !important;
+        }
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) and (max-width: 992px) {
+    .mainHeader{
+        height: auto !important;
+        .disclaimer{
+            text-align: left !important;
+            padding: 0 !important;
+            p{
+                display: none;
+            }
+        }
+    }
+    .previewArea{
+        padding: 10px 20px !important;
+        height: auto !important;
+        .controlUnit{
+            margin-bottom: 5px;
+        }
+        .zoomControls{
+            top: 15px !important;
+        }
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+// @media only screen and (min-width: 992px) and (max-width: 1200px){
+   
+// }
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+// @media only screen and (min-width: 1200px) {
+// }

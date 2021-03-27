@@ -1,0 +1,549 @@
+@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap");
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .mainHeader {
+    height: auto !important;
+    text-align: center;
+  }
+  .mainHeader .disclaimer {
+    text-align: center !important;
+    padding: 0 !important;
+  }
+  .mainHeader .disclaimer p {
+    display: none;
+  }
+
+  .previewArea {
+    padding: 10px 15px !important;
+    height: auto !important;
+  }
+  .previewArea .zoomControls {
+    top: 10px !important;
+  }
+  .previewArea .comicPrevImage {
+    height: auto !important;
+  }
+  .previewArea .comicPrevDetails {
+    text-align: center !important;
+  }
+  .previewArea .comicPrevDate {
+    display: block !important;
+    width: 100% !important;
+    text-align: center !important;
+  }
+  .previewArea .controlUnit {
+    margin-bottom: 5px;
+  }
+
+  .galleryArea {
+    padding: 10px 15px !important;
+    height: auto !important;
+  }
+  .galleryArea .galleryControls {
+    position: initial !important;
+    top: 0 !important;
+    right: 0 !important;
+    text-align: center !important;
+    width: 100% !important;
+    margin-bottom: 10px !important;
+  }
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) and (max-width: 992px) {
+  .mainHeader {
+    height: auto !important;
+  }
+  .mainHeader .disclaimer {
+    text-align: left !important;
+    padding: 0 !important;
+  }
+  .mainHeader .disclaimer p {
+    display: none;
+  }
+
+  .previewArea {
+    padding: 10px 20px !important;
+    height: auto !important;
+  }
+  .previewArea .controlUnit {
+    margin-bottom: 5px;
+  }
+  .previewArea .zoomControls {
+    top: 15px !important;
+  }
+}
+/* Large devices (laptops/desktops, 992px and up) */
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+.contentWrapper {
+  min-height: 100vh;
+}
+.contentWrapper .opennerSection {
+  height: 540px;
+}
+.contentWrapper .featureSection {
+  height: 402px;
+  background: #2b1e16;
+  padding: 0 20px;
+}
+.contentWrapper .mobileSection {
+  padding: 0 20px;
+  height: 570px;
+}
+.contentWrapper .footerSection {
+  min-height: 300px;
+  background: black;
+}
+
+.contentWrapper .footer {
+  min-height: 300px;
+  background: black;
+}
+.contentWrapper .header {
+  padding: 0 20px;
+}
+.contentWrapper .header .logoWrapSecond {
+  max-width: 1200px;
+  min-width: 1200px;
+  position: relative;
+  margin: 0 auto;
+  height: 80px;
+  padding-top: 20px;
+}
+.contentWrapper .header .logoWrapSecond img {
+  height: 50px;
+}
+.contentWrapper .citySearchSection {
+  height: 287px;
+  background: #494d60;
+  color: white;
+  padding-top: 90px;
+}
+.contentWrapper .citySearchSection .citySearchWrap {
+  max-width: 1200px;
+  min-width: 1200px;
+  position: relative;
+  margin: 0 auto;
+}
+.contentWrapper .citySearchSection .citySearchWrap .citySearchTitle {
+  font-size: 32px;
+  font-weight: 600;
+}
+.contentWrapper .citySearchSection .citySearchWrap .citySearchSub {
+  font-size: 16px;
+  margin-top: 20px;
+}
+.contentWrapper .citySearchSection .citySearchWrap .citySearch {
+  width: 430px;
+  height: 45px;
+  background-color: #fff;
+  margin-top: 16px;
+  color: #535665;
+  padding: 0 20px;
+  position: relative;
+  cursor: pointer;
+}
+.contentWrapper .citySearchSection .citySearchWrap .citySearch label {
+  margin-top: 10px;
+}
+.contentWrapper .citySearchSection .citySearchWrap .citySearch .searchButton {
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 100%;
+  background-color: #fc8019;
+  color: #fff;
+  -ms-flex-pack: center;
+  justify-content: center;
+  text-transform: uppercase;
+  width: 116px;
+  font-weight: 600;
+  padding-top: 10px;
+  text-align: center;
+}
+.contentWrapper .detailsSection {
+  max-width: 1200px;
+  min-width: 1200px;
+  position: relative;
+  margin: 0 auto;
+  margin-top: 60px;
+}
+.contentWrapper .detailsSection .detailsTitle {
+  font-size: 32px;
+  margin-bottom: 22px;
+  font-weight: 600;
+  letter-spacing: -0.4px;
+  color: #282c3f;
+}
+.contentWrapper .detailsSection .detailsSub {
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 28px;
+  color: #686b78;
+  padding-right: 100px;
+}
+.contentWrapper .hotelSection {
+  max-width: 1200px;
+  min-width: 1200px;
+  position: relative;
+  margin: 0 auto;
+  margin-top: 60px;
+}
+.contentWrapper .hotelSection .hotelTitle {
+  font-size: 32px;
+  margin-bottom: 22px;
+  font-weight: 600;
+  letter-spacing: -0.4px;
+  color: #282c3f;
+}
+.contentWrapper .hotelSection .hotelListSection .hotelUnit {
+  padding: 20px 20px 57px;
+  border: 1px solid #fff;
+}
+.contentWrapper .hotelSection .hotelListSection .hotelUnit .hotelImage {
+  background: #eef0f5;
+  width: 254px;
+  height: 160px;
+  position: relative;
+}
+.contentWrapper .hotelSection .hotelListSection .hotelUnit .hotelImage img {
+  width: 100%;
+  height: 100%;
+}
+.contentWrapper .hotelSection .hotelListSection .hotelUnit .hotelName {
+  margin-top: 14px;
+  font-size: 17px;
+  font-weight: 500;
+  word-break: break-word;
+  margin-bottom: 0;
+}
+.contentWrapper .hotelSection .hotelListSection .hotelUnit .hotelCuisine {
+  color: #686b78;
+  font-size: 13px;
+}
+.contentWrapper .hotelSection .hotelListSection .hotelUnit .hotelMeta {
+  margin-top: 18px;
+  font-size: 12px;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  color: #535665;
+  display: flex;
+  align-items: center;
+}
+.contentWrapper .hotelSection .hotelListSection .hotelUnit .hotelMeta .hotelRating {
+  background-color: #48c479;
+  color: #fff;
+  height: 20px;
+  width: 43px;
+  padding: 0 5px;
+  font-weight: 400;
+}
+.contentWrapper .hotelSection .hotelListSection .hotelUnit .hotelMeta .hotelRating .icon-star {
+  font-size: 10px;
+  margin-right: 4px;
+  position: relative;
+  top: -1px;
+}
+.contentWrapper .hotelSection .hotelListSection .hotelUnit .hotelOffer {
+  border-top: 1px solid #e9e9eb;
+  padding-top: 14px;
+  margin-top: 14px;
+  color: #8a584b;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+  font-weight: 600;
+}
+.contentWrapper .hotelSection .hotelListSection .hotelUnit .hotelOffer .offerUnit .offerIcon {
+  margin-right: 10px;
+}
+
+.opennerContainer {
+  height: 100%;
+}
+.opennerContainer .opennerContentArea {
+  max-width: 1200px;
+  min-width: 1200px;
+  margin: 0 auto;
+  height: 540px;
+}
+.opennerContainer .opennerContentArea .mainContents {
+  width: 680px;
+  padding-right: 60px;
+}
+.opennerContainer .opennerContentArea .mainContents .opennerHeader {
+  padding-top: 60px;
+}
+.opennerContainer .opennerContentArea .mainContents .opennerHeader .logoWrapper {
+  width: 200px;
+  display: inline-block;
+}
+.opennerContainer .opennerContentArea .mainContents .opennerHeader .logoWrapper img {
+  height: 56px;
+}
+.opennerContainer .opennerContentArea .mainContents .opennerHeader .signOnOptions {
+  display: inline-block;
+  float: right;
+  margin-top: 10px;
+}
+.opennerContainer .opennerContentArea .mainContents .opennerHeader .signOnOptions button {
+  cursor: pointer;
+  text-align: center;
+  border: none;
+  line-height: 50px;
+  font-size: 14px;
+  height: 50px;
+  padding: 0 2rem;
+  letter-spacing: 0;
+  font-size: 16px;
+  font-weight: 600;
+  height: 40px;
+  line-height: 40px;
+}
+.opennerContainer .opennerContentArea .mainContents .opennerHeader .signOnOptions button.loginButton {
+  color: #000;
+  background: none;
+}
+.opennerContainer .opennerContentArea .mainContents .opennerHeader .signOnOptions button.signupButton {
+  background-color: #000;
+  color: white;
+}
+.opennerContainer .opennerContentArea .mainContents .opennerTitleArea .mainTitle {
+  margin-top: 65px;
+  margin-bottom: 0;
+  font-size: 40px;
+  font-weight: 600;
+  letter-spacing: -0.45px;
+}
+.opennerContainer .opennerContentArea .mainContents .opennerTitleArea .subTitle {
+  font-size: 24px;
+  font-weight: 300;
+  width: 600px;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 40px;
+  letter-spacing: -0.3px;
+  color: #686b78;
+}
+.opennerContainer .opennerContentArea .mainContents .opennerTitleArea .opennerSearch {
+  margin-top: 35px;
+  position: relative;
+}
+.opennerContainer .opennerContentArea .mainContents .opennerTitleArea .opennerSearch .searchWrapper {
+  padding: 0 5px;
+  border: 1px solid #bebfc5;
+  box-shadow: none;
+}
+.opennerContainer .opennerContentArea .mainContents .opennerTitleArea .opennerSearch .searchWrapper .mainSearch {
+  height: 58px !important;
+  line-height: 28px !important;
+  padding-top: 0 !important;
+  padding-left: 15px !important;
+  padding-right: 160px !important;
+  caret-color: #fc8019;
+  font-size: 18px !important;
+  font-weight: 500;
+  border: none;
+  width: 100%;
+}
+.opennerContainer .opennerContentArea .mainContents .opennerTitleArea .opennerSearch .searchWrapper .mainSearch:focus {
+  border: none;
+  outline: none;
+}
+.opennerContainer .opennerContentArea .mainContents .opennerTitleArea .opennerSearch .searchButton {
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  text-align: center;
+  border: none;
+  line-height: 50px;
+  font-size: 14px;
+  font-weight: 600;
+  height: 50px;
+  padding: 0 2rem;
+  color: #fc8019;
+  letter-spacing: 0;
+  color: #fff;
+  background-color: #fc8019;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.12);
+  right: 0;
+  height: 60px;
+  line-height: 60px;
+  width: 140px;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 0.53px;
+  padding: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.opennerContainer .opennerContentArea .mainContents .opennerTitleArea .subMainText {
+  font-weight: 400;
+  font-size: 15px;
+  color: #a9abb2;
+  margin: 30px 0 10px;
+  letter-spacing: -0.2px;
+  text-transform: uppercase;
+}
+.opennerContainer .opennerContentArea .mainContents .opennerTitleArea .cityList {
+  width: 570px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.opennerContainer .opennerContentArea .mainContents .opennerTitleArea .cityList .cityItem {
+  display: inline-block;
+  padding: 0;
+}
+.opennerContainer .opennerContentArea .mainContents .opennerTitleArea .cityList .cityItem label {
+  font-weight: 600;
+  font-size: 16px;
+  margin-right: 8px;
+  line-height: 1.5;
+  letter-spacing: -0.3px;
+}
+.opennerContainer .opennerContentArea .mainContents .opennerTitleArea .cityList .cityItem label:hover {
+  text-decoration: none;
+}
+.opennerContainer .opennerContentArea .mainContents .opennerTitleArea .cityList .cityItem.itemNo_even label {
+  color: #686b78;
+}
+.opennerContainer .opennerContentArea .mainContents .opennerTitleArea .cityList .cityItem.itemNo_odd label {
+  color: #93959f;
+}
+.opennerContainer .opennerBanner {
+  position: absolute;
+  left: calc(50% + 80px);
+  right: 0;
+  background-repeat: no-repeat;
+  height: 540px;
+  background-size: cover;
+  background-position: 100%;
+  top: 0;
+  background-color: rgba(182, 178, 175, 0.2);
+  background-image: url("https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,h_1340/Breakfast2-new_men3ne");
+}
+
+.featureContainer {
+  height: 100%;
+}
+.featureContainer .featureBlock {
+  padding-bottom: 80px;
+  max-width: 1200px;
+  min-width: 1200px;
+  margin: 0 auto;
+}
+.featureContainer .featureBlock .featureUnit {
+  text-align: center;
+}
+.featureContainer .featureBlock .featureUnit .featureImage {
+  height: 250px;
+}
+.featureContainer .featureBlock .featureUnit .featureImage img {
+  height: 200px;
+  margin-bottom: 42px;
+}
+.featureContainer .featureBlock .featureUnit .featureTitle {
+  text-align: center;
+}
+.featureContainer .featureBlock .featureUnit .featureTitle label {
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 0;
+  color: white;
+}
+.featureContainer .featureBlock .featureUnit .featureSubTitle {
+  text-align: center;
+}
+.featureContainer .featureBlock .featureUnit .featureSubTitle p {
+  font-size: 15px;
+  width: 260px;
+  margin: auto;
+  margin-top: 10px;
+  color: #e0cbc1;
+  line-height: 1.3;
+}
+
+.mobileContainer {
+  height: 100%;
+  position: relative;
+}
+.mobileContainer .mobileAdWrapper {
+  max-width: 1200px;
+  min-width: 1200px;
+  margin: 0 auto;
+  padding-top: 100px;
+}
+.mobileContainer .mobileAdWrapper .mobileTitle {
+  font-size: 40px;
+  font-weight: 600;
+  width: 300px;
+  line-height: 1;
+  letter-spacing: -0.45px;
+  color: #282c3f;
+}
+.mobileContainer .mobileAdWrapper .mobileSubTitle {
+  font-size: 20px;
+  width: 400px;
+  font-weight: 300;
+  padding-top: 20px;
+  padding-bottom: 60px;
+  color: #7e808c;
+  line-height: 1.2;
+}
+.mobileContainer .mobileAdWrapper .storeLinks .appLink img {
+  height: 54px;
+}
+.mobileContainer .mobileAdWrapper .mobImages {
+  position: absolute;
+  height: 489px;
+  width: 384px;
+}
+.mobileContainer .mobileAdWrapper .mobImages.mob1 {
+  top: 0;
+  right: 350px;
+}
+.mobileContainer .mobileAdWrapper .mobImages.mob2 {
+  bottom: 0;
+  right: 0px;
+}
+
+body {
+  margin: 0;
+}
+
+.centered {
+  text-align: center;
+}
+
+::placeholder {
+  color: rgba(0, 0, 0, 0.3);
+}
+
+:-ms-input-placeholder {
+  color: rgba(0, 0, 0, 0.3);
+}
+
+::-ms-input-placeholder {
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.hidden {
+  display: none !important;
+}
+
+.disabled {
+  opacity: 0.4;
+  cursor: pointer !important;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  margin: 0;
+}
+
+/*# sourceMappingURL=styles.css.map */
